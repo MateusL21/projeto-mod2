@@ -20,6 +20,13 @@
 
         }
 
+        .container2{
+            background-color: #5D1D68;
+            margin: auto;
+            width: 550px;
+            border-radius: 5px;
+        }
+
         .header{
             padding: 20px;
             font-size: 30px;
@@ -38,6 +45,13 @@
         .tittle-col{
             text-align: center;
         }
+
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
     </style>
 </head>
 <body>
@@ -47,7 +61,7 @@
         </div>
         <div class="subtittle-header">
             <div>
-                Estamos escolhendo ness aenquete os melhores estilos de jogos entre os afixionados por video games. Participe da nossa enquete e escolha entre os três finalistas!
+                Estamos escolhendo nessa enquete os melhores estilos de jogos entre os afixionados por video games. Participe da nossa enquete e escolha entre os três finalistas!
 
             </div>
             <div>
@@ -59,7 +73,7 @@
         </div>
         
     </div>
-    <div>
+    <div class="container2">
         <div class="tittle-col">
             <div>
             Digite os seus dados e escolha entre os três finalistas!
@@ -68,7 +82,19 @@
             <input type="text" placeholder="Digite seu nome:"><br><input type="text" placeholder="Digite seu email:">
         </div>
             <div>
-                <div>
+                <div class="flex-container">
+                    <div>
+                        Esportes <br>
+                        <button>Voltar</button>
+                    </div>
+                    <div>
+                        Simulação <br>
+                        <button>Voltar</button>
+                    </div>
+                    <div>
+                        Estratégia <br>
+                        <button>Voltar</button>
+                    </div>
 
                 </div>
 
